@@ -1,0 +1,274 @@
+body {
+    padding: 0;
+    margin: 0;
+    border-box: box-sizing;
+    background-color: #c1bdbd;
+    no-repeat 0-1080px
+}
+
+/*--global--*/
+header .current a {
+    color: #ffa500;
+}
+
+/*-- header --*/
+.company {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    background-color: #35424a;
+    padding: 0px 50px;
+    border-bottom: #ffa500 solid 3px;
+}
+
+#branding {
+    font-size: 20px;
+    color: #ffffff;
+
+}
+
+.highlight {
+    color: #ffa500;
+}
+
+nav li {
+    margin-left: 70px;
+    display: inline;
+}
+
+nav ul a {
+    color: #e6e6e6;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+header a:hover {
+    font-weight: bold;
+    font-size: 25;
+    color: #e6e6e6;
+}
+
+/*--SHOWCASE--*/
+.information {
+    max-height: 450px;
+   background-image: url('../img/background.jpg');
+   overflow: hidden;
+}
+
+section {
+    color: #ffffff;
+    margin: 50px 0px 0px 150px;
+}
+
+section .text {
+    width: 45%;
+    line-height: 1.5em;
+    margin-top: 50px;
+
+}
+
+section .spn {
+    color: #ffa500;
+}
+
+section .pic {
+    float: right;
+    margin-bottom: 100px;
+    padding: 0 100px;
+}
+
+/*--OS--*/
+
+.apps {
+    display: flex;
+    margin: 100px 0px 0px 150px;
+}
+
+.scam, .scammer, .scams {
+    margin-right: 30px;
+}
+
+/*--buttons--*/
+
+#btn {
+    margin: 80px 0px 0px 140px;
+}
+
+.download a {
+    text-decoration: none;
+    color: #ffa500;
+}
+
+.tour a, .buy a, .pdf a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.tour {
+    margin-left: 15px;
+    background-color: #ffa500;
+    padding: 8px;
+    width: 15%;
+    border-radius: 4px;
+    border: 0px;
+}
+
+.download {
+    margin-left: 15px;
+    background-color: #ffffff;
+    padding: 8px;
+    width: 15%;
+    border-radius: 4px;
+    border: 0px;
+}
+
+.middle {
+    background-color: #e6e6e6;
+    max-height: 400px;
+    margin: 0px;
+    text-align: center;
+    color: #35424a;
+    overflow: hidden;
+    width: 100%;
+}
+
+.middle h1 {
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+
+.middle p {
+    font-size: 20px;
+
+}
+
+.pdf {
+    margin-left: 15px;
+    background-color: #ffa500;
+    padding: 8px;
+    width: 25%;
+    border-radius: 20px;
+    border: 0px;
+    margin-bottom: 50px;
+}
+
+.our {
+    text-align: center;
+    color: #000;
+    margin-top: 50px;
+}
+
+.value {
+    display: flex;
+    text-align: center;
+    margin: 1.5em 3.5em;
+}
+
+.value section {
+    color: #000;
+}
+
+.end {
+    text-align: center;
+    color: #fff;
+    background-color: #ffa500;
+    padding: 40px 0px;
+    font-size: 20px;
+}
+
+/*--shopping--*/
+
+
+.sidebar {
+    float: right;
+    height: 60vh;
+    background-color: #35424a;
+    width: 30%;
+    margin-top: 5em;
+    margin-right: 15px;
+}
+
+.dark{
+    color: #fff;
+    padding: 15px;
+}
+
+.quote{
+    line-height: 2em;
+}
+.quote input, .quote textarea{
+    width: 95%;
+    height: 25px;
+}
+
+.quote a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.button{
+    background-color: #ffa500;
+    padding: 8px;
+    width: 20%;
+    border-radius: 20px;
+    border: 0px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+#main-col {
+    width: 65%;
+    padding: 0px;
+}
+
+#main-col h1 {
+    margin-left: 40px;
+    color: #000;
+}
+
+ul#services li {
+    list-style: none;
+    padding: 20px;
+    border: #ccc solid 1px;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+    color: black;
+}
+
+
+.buy {
+    margin-left: 15px;
+    background-color: #ffa500;
+    padding: 8px;
+    width: 25%;
+    border-radius: 20px;
+    border: 0px;
+    margin-bottom: 50px;
+    float: right;
+
+}
+
+/*-- policy --*/
+
+.ppp {
+    margin: 0px 50px;
+}
+
+#policy {
+    background: #e6e6e6;
+}
+
+.name {
+    color: black;
+}
+
+@media (max-width: 768px) {
+   header .company, nav ul {
+        text-align: center;
+        float: none;
+
+    }
+
+}
